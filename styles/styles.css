@@ -1,3 +1,151 @@
 section div img {
-  width: 100px;
+  width: 250px;
+}
+section div h2 {
+  color: #dfdfdf;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-image: url(/assets/pokemon-in-the-wild.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #49ff79;
+  height: 1100px;
+}
+#pokedext {
+  height: 48rem;
+  background-color: #ed3833;
+  border-radius: 10px;
+  background-repeat: no-repeat, repeat;
+  background-size: contain;
+  border: rgb(53, 53, 53) 8px solid;
+  margin-top: 30px;
+}
+#containerCircles {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+}
+#containerCirclesSmall {
+  display: flex;
+  width: 50%;
+}
+#containerBlue {
+  display: flex;
+  margin-top: 10px;
+  width: 40%;
+  justify-content: center;
+}
+
+#searchPokemon {
+  width: 70%;
+  cursor: auto;
+}
+#deletePokemon {
+  width: 25%;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: #bb0808 4px solid;
+}
+#pokemonName {
+  width: 90%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+#containerInpu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app {
+  background-image: url(/assets/img-noise-361x370.png);
+  border-radius: 5%;
+  margin-top: 60px;
+  height: 400px;
+  width: 90%;
+  justify-content: center;
+  margin-left: 7px;
+  align-items: center;
+  display: flex;
+
+  border: #d4d2d5 solid 10px;
+}
+
+#circuloRed {
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #e22121;
+  border: rgb(145, 1, 1) 4px solid;
+  margin: 0 10px 35px 0;
+}
+#circuloWellow {
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ffe921;
+  border: rgb(215, 215, 105) 4px solid;
+  margin-right: 10px;
+}
+#circuloGreen {
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #5cb85c;
+  border: rgb(1, 145, 20) 4px solid;
+}
+
+@media (min-width: 760px) {
+  #pokedext {
+    height: 48rem;
+    background-color: #ed3833;
+    border-radius: 10px;
+    background-repeat: no-repeat, repeat;
+    background-size: contain;
+    border: rgb(53, 53, 53) 8px solid;
+    margin-top: 130px;
+    margin-left: 25%;
+    width: 50%;
+  }
+  #deletePokemon {
+    width: 22%;
+  }
+  #app {
+    margin-left: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  #pokedext {
+    height: 48rem;
+    background-color: #ed3833;
+    border-radius: 10px;
+    background-repeat: no-repeat, repeat;
+    background-size: contain;
+    border: rgb(53, 53, 53) 8px solid;
+    margin-top: 130px;
+    margin-left: 25%;
+    width: 50%;
+  }
+
+  #searchPokemon {
+    width: 40%;
+  }
+  #deletePokemon {
+    width: 14%;
+  }
+
+  #app {
+    margin-left: 25px;
+  }
 }
