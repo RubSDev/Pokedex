@@ -11,7 +11,6 @@ body {
   background-image: url(/assets/pokemon-in-the-wild.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #49ff79;
   height: 1100px;
 }
 #pokedext {
@@ -22,6 +21,7 @@ body {
   background-size: contain;
   border: rgb(53, 53, 53) 8px solid;
   margin-top: 30px;
+  box-shadow: 0px 20px 20px -6px black;
 }
 #containerCircles {
   display: flex;
